@@ -1,0 +1,146 @@
+@media(max-width: 1500px) {
+  div#sidebar {
+    width: 100%;
+  }
+}
+
+@media(min-width: 1000px) {
+  div#sidebar {
+    width: 60%;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 15%;
+  margin: 1%;
+}
+
+.parent {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list1 {
+  box-sizing: border-box;
+  color: #A9A9A9;
+  margin: 15px;
+  font-size: 2vmin;
+}
+
+.list2 {
+  box-sizing: border-box;
+  color: #A9A9A9;
+  margin: 15px;
+  font-size: 2vmin;
+}
+
+.list3 {
+  box-sizing: border-box;
+  color: #A9A9A9;
+  margin: 15px;
+  font-size: 2vmin;
+}
+
+.list4 {
+  box-sizing: border-box;
+  color: #A9A9A9;
+  margin: 15px;
+  font-size: 2vmin;
+}
+
+.list5 {
+  box-sizing: border-box;
+  color: #A9A9A9;
+  margin: 15px;
+  font-size: 2vmin;
+}
+
+.list6 {
+  box-sizing: border-box;
+  color: #A9A9A9;
+  margin: 15px;
+  font-size: 2vmin;
+}
+
+.float {
+  position: relative;
+  width: 100%;
+}
+
+.float-img {
+  position: absolute;
+  width: 50%;
+  right: 0;
+}
+
+p {
+  font-family: "Architects Daughter", cursive;
+  font-size: 70px;
+}
+
+.text {
+  position: absolute;
+  top: 10%;
+  left: -35%;
+  line-height: 200%;
+}
+
+span {
+  color: #00BFFF;
+}
+
+span2 {
+  color: #B13546;
+}
+
+.text2 {
+  position: absolute;
+  top: 60%;
+  left: -35%;
+  font-size: 26.5px;
+}
+
+.text3 {
+  font-family: 'Roboto',
+  sans-serif;
+  position: absolute;
+  top: 65%;
+  left: -35%;
+  font-size: 20px;
+  color: #A9A9A9;
+}
+
+.box {
+  position: relative;
+  top: 2000%;
+  
+}
+
+span3 {
+  font-family: "Architects Daughter",
+  cursive;
+  color: #B13546;
+}
+
+.news {
+  position: absolute;
+  top: 1000%;
+  list-style: none;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color: #A9A9A9;
+  border-left: transparent;
+  border-right: transparent;
+}
