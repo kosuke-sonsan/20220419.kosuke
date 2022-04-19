@@ -123,13 +123,18 @@ span2 {
 .box {
   position: relative;
   top: 2000%;
-  
+
 }
 
 span3 {
   font-family: "Architects Daughter",
   cursive;
   color: #B13546;
+}
+
+.box {
+  position: relative;
+  
 }
 
 .news {
@@ -139,8 +144,18 @@ span3 {
   box-sizing: border-box;
   width: 80%;
   padding: 10px 20px;
-  border-style: solid;
-  border-color: #A9A9A9;
-  border-left: transparent;
-  border-right: transparent;
+  text-decoration: underline;
+  text-decoration-color: #A9A9A9;
+  text-underline-offset: 1em;
+}
+
+.box1 {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #B13546;
+  font-size: 15px;
+  color: aliceblue;
 }
