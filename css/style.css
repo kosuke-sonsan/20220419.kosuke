@@ -34,53 +34,52 @@ body {
   box-sizing: border-box;
   color: #A9A9A9;
   margin: 15px;
-  font-size: 2vmin;
+  font-size: 1.5vmin;
 }
 
 .list2 {
   box-sizing: border-box;
   color: #A9A9A9;
   margin: 15px;
-  font-size: 2vmin;
+  font-size: 1.5vmin;
 }
 
 .list3 {
   box-sizing: border-box;
   color: #A9A9A9;
   margin: 15px;
-  font-size: 2vmin;
+  font-size: 1.5vmin;
 }
 
 .list4 {
   box-sizing: border-box;
   color: #A9A9A9;
   margin: 15px;
-  font-size: 2vmin;
+  font-size: 1,5vmin;
 }
 
 .list5 {
   box-sizing: border-box;
   color: #A9A9A9;
   margin: 15px;
-  font-size: 2vmin;
+  font-size: 1.5vmin;
 }
 
 .list6 {
   box-sizing: border-box;
   color: #A9A9A9;
   margin: 15px;
-  font-size: 2vmin;
+  font-size: 1.5vmin;
 }
 
 .float {
-  position: relative;
   width: 100%;
 }
 
 .float-img {
-  position: absolute;
-  width: 50%;
-  right: 0;
+  position: relative;
+  width: 20%;
+  left: 50%;
 }
 
 p {
@@ -91,8 +90,9 @@ p {
 .text {
   position: absolute;
   top: 10%;
-  left: -35%;
-  line-height: 200%;
+  left: -85%;
+  line-height: 175%;
+  font-size: 400%;
 }
 
 span {
@@ -106,7 +106,7 @@ span2 {
 .text2 {
   position: absolute;
   top: 60%;
-  left: -35%;
+  left: -85%;
   font-size: 26.5px;
 }
 
@@ -115,34 +115,46 @@ span2 {
   sans-serif;
   position: absolute;
   top: 65%;
-  left: -35%;
+  left: -85%;
   font-size: 20px;
   color: #A9A9A9;
 }
 
-.box {
-  position: relative;
-  top: 2000%;
 
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
 }
 
 span3 {
+  display: flex;
   font-family: "Architects Daughter",
   cursive;
   color: #B13546;
+  padding: 10px 20px;
+  justify-content: flex-start;
 }
 
-.box {
-  position: relative;
-  
+.size {
+  display: flex;
+  font-size: 200%;
+  padding: 10px 20px;
+  justify-content: flex-start;
 }
 
 .news {
-  position: absolute;
-  top: 1000%;
   list-style: none;
   box-sizing: border-box;
-  width: 80%;
+  border: 3px solid;
+  border-color: #A9A9A9;
+  border-left: transparent;
+  border-right: transparent;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding: 10px 20px;
   text-decoration: underline;
   text-decoration-color: #A9A9A9;
@@ -152,8 +164,8 @@ span3 {
 .box1 {
   display: inline-block;
   box-sizing: border-box;
-  padding: 5px 10px;
-  margin: 10px;
+  padding: 10px 10px;
+  margin: 20px;
   border-radius: 20px;
   background-color: #B13546;
   font-size: 15px;
