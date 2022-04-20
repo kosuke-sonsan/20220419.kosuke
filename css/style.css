@@ -133,15 +133,15 @@ span3 {
   font-family: "Architects Daughter",
   cursive;
   color: #B13546;
-  padding: 10px 20px;
-  justify-content: flex-start;
+  padding: 20px;
+  align-self: flex-start;
 }
 
 .size {
   display: flex;
   font-size: 200%;
-  padding: 10px 20px;
-  justify-content: flex-start;
+  padding: 20px;
+  align-self: flex-start;
 }
 
 .news {
