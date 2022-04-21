@@ -158,9 +158,10 @@ span3 {
   flex-direction: column;
   padding: 20px 20px;
   margin: 40px;
-  text-decoration: underline;
-  text-decoration-color: #A9A9A9;
-  text-underline-offset: 1.5em;
+}
+
+.underline {
+  border-bottom: 0.1em solid #A9A9A9;
 }
 
 .box1 {
@@ -176,6 +177,7 @@ span3 {
 
 .group {
   background-color: #A9A9A9;
+  max-width: 125%;
 }
 
 span4 {
@@ -197,8 +199,13 @@ span4 {
   justify-content: center;
 }
 
+.about_content{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .img_2 {
-  width: -103% auto;
-  height: 3% auto;
-  left: 3%;
+  display: flex;
+  width: 4%;
+  height: 3%;
 }
