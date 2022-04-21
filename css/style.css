@@ -202,6 +202,9 @@ span4 {
 
 .about_content{
   display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .img_2 {
@@ -210,11 +213,14 @@ span4 {
 }
 
 .img_size {
+  display: flex;
   width: 45%;
+  flex-basis: 50%;
 }
 
 .text4 {
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  justify-content: flex-start;
   font-size: 26.5px;
+  flex-basis: 50%;
 }
