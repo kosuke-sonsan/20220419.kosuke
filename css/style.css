@@ -328,6 +328,7 @@ span {
 }
 
 .img-size3 {
+  position: relative;
   box-sizing: border-box;
   width: 18%;
   border-radius: 20px 20px 0 0;
@@ -345,9 +346,10 @@ span {
 }
 
 .blog {
-  display: inline-block;
+  position: absolute;
   font-family: 'Roboto',
   sans-serif;
+  bottom: 87.3%;
   font-size: 1.4em;
   background-color: #C71585;
   color: white;
@@ -385,4 +387,132 @@ span {
   font-size: 1.2em;
   margin: 5% auto 0;
   display: block;
+}
+
+table, td, th {
+  border:1px solid;
+  width: 60%;
+  margin: 2% 0 ;
+}
+
+.size6 {
+  font-size: 2.5em;
+  margin: 3%;
+}
+
+.span7 {
+  font-family: "Architects Daughter",
+  cursive;
+  color: #B13546;
+  font-size: 25px;
+}
+
+.group4 {
+  background: #D3D3D3;
+  width: 40%;
+  line-height: 330%;
+  font-size: 150%;
+  font-weight: 300;
+  padding: 2%;
+  text-align: left;
+}
+
+.group5 {
+  width: 80%;
+  line-height: 330%;
+  font-size: 150%;
+  font-weight: 200;
+  padding: 2%;
+}
+
+.group5 {
+  position: relative;
+  width: 100%;
+}
+
+.recrutit_img {
+  position: absolute;
+  width: 50%;
+  z-index: 0;
+}
+
+.interview_img {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  z-index: 0;
+}
+
+.text5 {
+  position: absolute;
+  top: 300%;
+  left: 18%;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  font-size: 220%;
+}
+
+.text6 {
+  position: absolute;
+  top: 300%;
+  right: 12%;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  font-size: 220%;
+}
+
+.information {
+  position: absolute;
+  font-family: 'Noto Serif JP',
+  serif;
+  top: 200%;
+  left: 11%;
+  padding: 20%;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  z-index: 1;
+}
+
+.text_box {
+  position: absolute;
+  top: 900%;
+  left: 39.5%;
+  width: 20%;
+  padding: 10px;
+  background: linear-gradient(90deg, #DA70D6,#C71585);
+  border-radius: 85px;
+  text-align: center;
+  font-size: 1.2em;
+  color: azure;
+  margin: 5% auto 0;
+  display: block;
+  box-shadow: 0 5px 5px silver;
+}
+
+.text_box::before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  background: url(../img/mailicon.svg) no-repeat;
+  width: 35%;
+  height: 35%;
+}
+
+.group6 {
+  position: relative;
+  min-height: 100vh;
+
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: silver;
+  padding: 30px 0;
+  bottom: 0;
 }
