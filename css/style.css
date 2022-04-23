@@ -397,7 +397,8 @@ table, td, th {
 
 .size6 {
   font-size: 2.5em;
-  margin: 3%;
+  margin: 0 auto;
+  margin-left: 20%;
 }
 
 .span7 {
@@ -425,8 +426,8 @@ table, td, th {
   padding: 2%;
 }
 
-.group5 {
-  position: relative;
+.group8 {
+  display: flex;
   width: 100%;
 }
 
@@ -444,51 +445,65 @@ table, td, th {
 }
 
 .text5 {
-  position: absolute;
-  top: 300%;
-  left: 18%;
-  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../img/recruit.png);
+  width: 50%;
+  padding: 7%;
   color: white;
   font-weight: bold;
-  font-size: 220%;
+  font-size: 200%;
 }
 
 .text6 {
-  position: absolute;
-  top: 300%;
-  right: 12%;
-  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../img/interview.png");
+  width: 50%;
+  padding: 7%;
   color: white;
   font-weight: bold;
   font-size: 220%;
 }
 
+.group7 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .information {
-  position: absolute;
+  position: relative;
   font-family: 'Noto Serif JP',
   serif;
-  top: 200%;
-  left: 11%;
-  padding: 20%;
+  padding: 7%;
   color: black;
   font-weight: bold;
   text-align: center;
   font-size: 150%;
-  z-index: 1;
+}
+
+.information::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 120px;
+  background-color: #C71585;
+  position: absolute;
+  top: 70%;
+  left: 50%;
 }
 
 .text_box {
-  position: absolute;
-  top: 900%;
-  left: 39.5%;
-  width: 20%;
-  padding: 10px;
+  position: relative;
+  width: 12%;
+  padding: 2%;
   background: linear-gradient(90deg, #DA70D6,#C71585);
   border-radius: 85px;
   text-align: center;
   font-size: 1.2em;
-  color: azure;
   margin: 5% auto 0;
+  color: azure;
   display: block;
   box-shadow: 0 5px 5px silver;
 }
@@ -504,15 +519,14 @@ table, td, th {
 }
 
 .group6 {
-  position: relative;
-  min-height: 100vh;
-
+  min-height: 10vh;
+  width: 100%;
 }
 
 .footer {
-  position: absolute;
-  width: 100%;
   background-color: silver;
+  margin-top: 10%;
   padding: 30px 0;
   bottom: 0;
+  text-align: center;
 }
